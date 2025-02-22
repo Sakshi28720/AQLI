@@ -10,8 +10,8 @@ This project systematically examines air pollution levels across various regions
 
 This study focuses on processing, analyzing, and visualizing air pollution data spanning **1998 to 2021** using **statistical and geospatial methodologies**. The primary objectives include:
 
-- Identifying **temporal pollution trends** and variations.
-- Determining the **most polluted regions** globally over the dataset's timeframe.
+- Identifying **pollution trends** and variations.
+- Determining the **most polluted regions** globally.
 - Estimating the **impact of PM2.5 exposure** on life expectancy.
 - Benchmarking pollution levels against **World Health Organization (WHO) guidelines**.
 
@@ -33,10 +33,10 @@ The analysis utilizes datasets provided by **AQLI**, including:
 
 The analytical workflow consists of the following phases:
 
-1. **Data Acquisition** – The AQLI 1998-2021 GADM2 dataset is imported, and relevant regional data is extracted for analysis.
-2. **Data Cleaning** – The dataset is preprocessed to handle missing values, inconsistencies, and outliers, ensuring data integrity.
+1. **Data Acquisition** – The AQLI 1998-2021 GADM2 dataset is downloaded.
+2. **Data Cleaning** – The dataset is preprocessed to handle missing values and inconsistencies.
 3. **Exploratory Data Analysis** – Statistical methods and visualizations are used to identify highly polluted regions and analyze trends.
-4. **Geospatial Mapping**: The GADM2 shapefiles are processed to create GIS-based pollution distribution maps, which provide insights into air quality variations.
+5. **Visualizations**: The findings from the data analysis are presented using various visualizations and maps.
 
 ---
 
@@ -51,8 +51,6 @@ The analytical workflow consists of the following phases:
 | **GIS & Geospatial Analysis (for future work)** | QGIS, Geopandas, Folium|
 
 
-This project adopts a **modular, reproducible** approach, ensuring scalability for future analyses.
-
 ---
 
 ## Key Findings
@@ -60,20 +58,13 @@ This project adopts a **modular, reproducible** approach, ensuring scalability f
 - **Most Polluted Countries (2021):** Bangladesh, India, and Nepal recorded the highest annual average PM2.5 levels.
 - **Consistently Affected Regions (1998-2021):** Delhi, India, remained among the most polluted urban areas.
 - **Life Expectancy Impact:** Exposure reduction to WHO-recommended levels could lead to significant gains in life expectancy.
-- **Policy and Regulatory Challenges:** Enforcing air quality standards remains a major challenge, particularly in South Asia, due to urbanization, industrial emissions, and inadequate regulatory frameworks.
+- **Policy and Regulatory Challenges:** Enforcing air quality standards remains a significant challenge, particularly in South Asia.
 
 ---
 
 ## Output Files
 
 Processed datasets, analytical results, visualizations, and comprehensive reports are stored in the [`Output`](https://github.com/Assignment/Output) directory.
-
-Key deliverables include:
-
-- **Processed CSV Files** – Cleaned and structured datasets.
-- **Visual Reports** – Statistical charts, GIS maps, and trend visualizations.
-- **Geospatial Analysis Files** – Shapefiles and interactive maps.
-- **Technical Documentation** – Methodology reports and analytical scripts.
 
 ---
 
