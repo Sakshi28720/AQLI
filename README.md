@@ -2,7 +2,7 @@
 
 ## Project: Air Pollution and Life Expectancy Analysis
 
-This project systematically examines air pollution levels across various regions and their impact on life expectancy. The **Air Quality Life Index (AQLI)** provides a framework for quantifying the potential years of life lost due to exposure to **particulate matter (PM2.5)** pollution.
+This project examines air pollution levels across various regions and their impact on life expectancy. The **Air Quality Life Index (AQLI)** provides a framework for quantifying the potential years of life lost due to exposure to **particulate matter (PM2.5)** pollution.
 
 ---
 
@@ -48,7 +48,7 @@ The analytical workflow consists of the following phases:
 | **Data Processing**  | Pandas, NumPy                   |
 | **Visualization**    | Matplotlib, Geopandas    |
 | **Version Control**  | Git, GitHub                     |
-| **GIS & Geospatial Analysis (for future work)** | QGIS, Geopandas, Folium|
+| **GIS & Geospatial Analysis(for future work)** | QGIS, Geopandas, Folium|
 
 
 ---
@@ -64,7 +64,7 @@ The analytical workflow consists of the following phases:
 
 ## Output Files
 
-Processed datasets, analytical results, visualizations, and comprehensive reports are stored in the [`Output`](https://github.com/Assignment/Output) directory.
+Processed datasets, analytical results, and visualizations are stored in the [`Output`](https://github.com/Assignment/Output) directory.
 
 ---
 
